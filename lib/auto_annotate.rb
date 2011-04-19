@@ -1,0 +1,3 @@
+module AutoAnnotate
+  # Your code goes here...
+end
