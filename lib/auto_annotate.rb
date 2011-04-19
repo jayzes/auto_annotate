@@ -1,3 +1,3 @@
 module AutoAnnotate
-  # Your code goes here...
+  require 'auto_annotate/railtie' if defined?(Rails)
 end

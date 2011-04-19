@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors = ['Jay Zeschin']
   s.email = 'jay.zeschin@factorylabs.com'
   s.homepage = 'http://github.com/jayzes/auto_annotate'
-  s.summary = %Q{TODO: one-line summary of your gem}
-  s.description = %Q{TODO: detailed description of your gem}
+  s.summary = %Q{Automatically annotate your Rails models whenever you run a db:migrate}
+  s.description = %Q{Automatically annotate your Rails models whenever you run a db:migrate}
   s.extra_rdoc_files = [
     'LICENSE',
     'README.rdoc',
@@ -24,11 +24,12 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ['lib']
+  
+  s.add_dependency 'rails', '>= 3.0.0'
+  s.add_dependency 'rake-hooks', '>= 0.1'
 
-  s.add_development_dependency 'rspec'
   s.add_development_dependency 'bundler'
   s.add_development_dependency 'bueller'
   s.add_development_dependency 'rake'
-  s.add_development_dependency 'rcov'
 end
 
