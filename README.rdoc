@@ -1,6 +1,14 @@
 = auto_annotate
 
-Description goes here.
+Uses rake-hooks to automatically annotate your Rails models whenever you run db:migrate
+
+== Installation
+
+Add the following to your Gemfile:
+
+group :development do
+  gem 'auto_annotate'
+end
 
 == Note on Patches/Pull Requests
  
