@@ -3,9 +3,9 @@ require 'auto_annotate/version'
 
 Gem::Specification.new do |s|
   s.name = 'auto_annotate'
-  s.version = AutoAnnotate::VERSION
+  s.version = "0.2.0"
   s.platform = Gem::Platform::RUBY
-  s.date = '2011-04-19'
+  s.date = "2011-04-25"
   s.authors = ['Jay Zeschin']
   s.email = 'jay.zeschin@factorylabs.com'
   s.homepage = 'http://github.com/jayzes/auto_annotate'
