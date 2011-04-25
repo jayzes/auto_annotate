@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
     'README.rdoc',
   ]
 
-  s.required_rubygems_version = Gem::Requirement.new('>= 1.3.7')
+  s.required_rubygems_version = Gem::Requirement.new('>= 1.3.6')
   s.rubygems_version = '1.3.7'
   s.specification_version = 3
 
